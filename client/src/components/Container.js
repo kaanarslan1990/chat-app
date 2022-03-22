@@ -1,10 +1,12 @@
 import React from 'react'
 import ChatForm from './ChatForm'
 import ChatList from './ChatList'
+import styles from "./styles.module.css";
+
 
 function Container() {
   return (
-    <div>
+    <div className="App">
         <ChatList />
         <ChatForm />
     </div>
